@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^(.*)js/libs/tiny_mce/(.*)$
+RewriteCond %{REQUEST_URI} !^(.*)/sitemapGenerator/(.*)$
+RewriteRule !\.(js|ico|txt|gif|jpg|jpeg|png|css|swf|php|doc|xls|pdf|rtf|zip|rar|xml)$ index.php [L]
