@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<configuration>
+	<project>
+		<global>
+			<locale>ru_RU.utf8</locale>
+			<magic_quotes_runtime>0</magic_quotes_runtime>
+		</global>
+		<templater>
+			<disable_internal_renderer>1</disable_internal_renderer>
+			<adapter>Smarty</adapter>
+			<options>
+				<debugging>0</debugging>
+				<force_compile>1</force_compile>
+				<caching>0</caching>
+				<compile_check>1</compile_check>
+				<cache_lifetime>3600</cache_lifetime>
+				<template_dir>application/views</template_dir>
+				<compile_dir>tmp/templates_c</compile_dir>
+				<cache_dir>tmp/cache/templates</cache_dir>
+			</options>
+		</templater>
+		<paths>
+			<path>library/</path>
+			<path>application/modules/</path>
+			<path>application/models/</path>
+		</paths>
+	</project>
+</configuration>

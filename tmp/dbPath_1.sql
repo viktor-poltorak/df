@@ -1,0 +1,1 @@
+alter table `product_categories` add column `description` mediumtext   NULL  COLLATE utf8_general_ci;

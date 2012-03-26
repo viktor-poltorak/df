@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<configuration>
+    <errors>
+        <first_name_empty>Нужно заполнить поле "Имя" (допускаются только буквы алфавита).</first_name_empty>
+        <last_name_empty>Нужно заполнить поле "Фамилия" (допускаются только буквы алфавита).</last_name_empty>
+        <email_invalid>Email неправильного формата.</email_invalid>
+        <username_invalid>Логин должен содержать только буквы и цифры.</username_invalid>
+		<username_is_registered>Логин занят.</username_is_registered>
+        <email_is_registered>Этот адрес уже кем-то используется.</email_is_registered>
+        <password_invalid>Пароль должен быть от 6 до 40 символов и содержать только цифры и буквы алфавита.</password_invalid>
+        <passwords_mismatch>Пароли не совпали</passwords_mismatch>
+        <current_password_invalid>Вы указали неверный текущий пароль.</current_password_invalid>
+        <invalid_action>Действие запрещено.</invalid_action>
+        <login_failed>Такой аккаунт либо не создан, либо неверная связка "email\пароль".</login_failed>
+        <user_inactive>Этот аккаунт все еще не активен. Не перешли по ссылке, высланной после регистрации?</user_inactive>
+        <account_inactive>Этот аккаунт все еще не активен.</account_inactive>
+		<user_deleted>Эта страница была удалена.</user_deleted>
+        <user_not_found>Упс, а такой пользователь у нас никогда не регистрировался...</user_not_found>
+        <failed_add_category>Не удалось создать категорию.</failed_add_category>
+        <access_denied>У вас нет прав для просмотра этой страницы.</access_denied>
+		<no_role_selected>Роль не выбрана.</no_role_selected>
+		<no_user_selected>Пользователь не выбран.</no_user_selected>
+		<not_logged>Необходимо авторизоваться, что бы просматривать эту страницу.</not_logged>
+		<login_required>Вы должны авторизоваться для этого действия.</login_required>
+		<page_not_found>Страница не найдена.</page_not_found>
+		<wrong_file_type>Неверный тип файла.</wrong_file_type>
+		<wrong_file_size>Слишком большой размер файла.</wrong_file_size>
+		<wrong_file>Не удалось закачать файл. Возможно размер больше допустимого либо неверный тип.</wrong_file>
+		<no_name>Необходимо заполнить поле имя</no_name>
+		<name_must_be_set>Название должно быть указано.</name_must_be_set>
+		<require_filed_is_empty>Необходимо заполнить все обязательные поля.</require_filed_is_empty>
+		<pages>
+			<no_title>Укажите заголовок.</no_title>
+			<no_annotation>Добавьте аннотацию (она показывается на главной).</no_annotation>
+			<no_body>Нет основного текста.</no_body>
+			<no_description>Нет описания.</no_description>
+			<no_keywords>Нет ключевых слов.</no_keywords>
+			<no_link>Нет алиаса.</no_link>
+            <not_found>Такой страницы нет.</not_found>
+            <twice_rate_unallowed>Нельзя голосовать дважды.</twice_rate_unallowed>
+		</pages>
+		<products>
+			<no_title>Укажите заголовок.</no_title>			
+			<no_price>Укажите цену.</no_price>
+			<no_description>Нет описания.</no_description>
+			<no_category>Не указана категория.</no_category>
+			<no_producer>Не указан производитель.</no_producer>
+		</products>
+		<news>
+			 <not_found>Такой новости нет.</not_found>
+			 <twice_rate_unallowed>Нельзя голосовать дважды.</twice_rate_unallowed>
+		</news>
+		<blog>
+			<no_title>Небходимо указать заголовок.</no_title>
+			<no_body>Запись не может быть пустой.</no_body>
+			<not_allowed>Вы не можете редактировать чужие записи.</not_allowed>
+		</blog>
+		<manager>
+			<no_link>Необходимо прописать ссылку.</no_link>
+			<no_menu>Выберите меню.</no_menu>
+		</manager>
+    </errors>
+</configuration>

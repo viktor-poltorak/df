@@ -1,0 +1,174 @@
+[Tue Feb 21 15:09:30 2012] [crit] [client 127.0.0.1] (13)Permission denied: /home/viktor/Dropbox/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Tue Feb 21 15:09:32 2012] [crit] [client 127.0.0.1] (13)Permission denied: /home/viktor/Dropbox/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Tue Feb 21 15:10:45 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Zend_Session::start() - /usr/share/php/Zend/Session.php(Line:469): Error #2 session_start() [<a href='function.session-start'>function.session-start</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (tmp/session) Array' in /usr/share/php/Zend/Session.php:482\nStack trace:\n#0 /home/viktor/Dropbox/work/df/library/Eve/Bootstrap.php(97): Zend_Session::start()\n#1 /home/viktor/Dropbox/work/df/index.php(7): Bootstrap- in /usr/share/php/Zend/Session.php on line 482
+[Tue Feb 21 15:10:59 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Zend_Session::start() - /usr/share/php/Zend/Session.php(Line:469): Error #2 session_start() [<a href='function.session-start'>function.session-start</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (tmp/session) Array' in /usr/share/php/Zend/Session.php:482\nStack trace:\n#0 /home/viktor/Dropbox/work/df/library/Eve/Bootstrap.php(97): Zend_Session::start()\n#1 /home/viktor/Dropbox/work/df/index.php(7): Bootstrap- in /usr/share/php/Zend/Session.php on line 482
+[Tue Feb 21 15:11:00 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Zend_Session_Exception' with message 'Zend_Session::start() - /usr/share/php/Zend/Session.php(Line:469): Error #2 session_start() [<a href='function.session-start'>function.session-start</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: open(tmp/session/sess_2tho4j9i4rtojtlgk8q7i56nj7, O_RDWR) failed: Permission denied (13) Array\n/usr/share/php/Zend/Session.php(Line:479): Error #2 session_write_close() [<a href='function.session-write-close'>function.session-write-close</a>]: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (tmp/session) Array' in /usr/share/php/Zend/Session.php:482\nStack trace:\n#0 /home/viktor/Dropbox/work/df/library/Eve/Bootstrap.php(97): Zend_Session::start()\n#1 /home/viktor/Dropbox/work/df/index.php(7): Bootstrap- in /usr/share/php/Zend/Session.php on line 482
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:11:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:10 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:13:47 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:08 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:09 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/smexplorer, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/code, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/searchreplace, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/noneditable, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/visualchars, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/nonbreaking, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/imagemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Tue Feb 21 15:14:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/js/libs/tiny_mce/plugins/filemanager, referer: http://df.loc/manager/producers/edit/id/19/
+[Mon Feb 27 18:27:27 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admin.php' not found or unable to stat
+[Mon Feb 27 18:27:27 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/login.php' not found or unable to stat
+[Mon Feb 27 18:27:30 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:31 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:32 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:32 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:32 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:32 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admin-login.php' not found or unable to stat
+[Mon Feb 27 18:27:34 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:34 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin
+[Mon Feb 27 18:27:35 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/adminitem.php' not found or unable to stat
+[Mon Feb 27 18:27:35 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/adminitems.php' not found or unable to stat
+[Mon Feb 27 18:27:36 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/administrator
+[Mon Feb 27 18:27:36 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/administrator.php' not found or unable to stat
+[Mon Feb 27 18:27:36 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/administration.php' not found or unable to stat
+[Mon Feb 27 18:27:38 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/adminlogin.php' not found or unable to stat
+[Mon Feb 27 18:27:38 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin_area
+[Mon Feb 27 18:27:39 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/admin_area
+[Mon Feb 27 18:27:39 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/manager.php' not found or unable to stat
+[Mon Feb 27 18:27:39 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/letmein.php' not found or unable to stat
+[Mon Feb 27 18:27:40 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/superuser.php' not found or unable to stat
+[Mon Feb 27 18:27:40 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/access.php' not found or unable to stat
+[Mon Feb 27 18:27:41 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/sysadm.php' not found or unable to stat
+[Mon Feb 27 18:27:43 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/panel.php' not found or unable to stat
+[Mon Feb 27 18:27:44 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/control.php' not found or unable to stat
+[Mon Feb 27 18:27:44 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/member.php' not found or unable to stat
+[Mon Feb 27 18:27:45 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/members.php' not found or unable to stat
+[Mon Feb 27 18:27:45 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/user.php' not found or unable to stat
+[Mon Feb 27 18:27:45 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/manage.php' not found or unable to stat
+[Mon Feb 27 18:27:46 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/management.php' not found or unable to stat
+[Mon Feb 27 18:27:46 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/signin.php' not found or unable to stat
+[Mon Feb 27 18:27:48 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/log-in.php' not found or unable to stat
+[Mon Feb 27 18:27:48 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/log_in.php' not found or unable to stat
+[Mon Feb 27 18:27:48 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/sign_in.php' not found or unable to stat
+[Mon Feb 27 18:27:49 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/sign-in.php' not found or unable to stat
+[Mon Feb 27 18:27:49 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/users.php' not found or unable to stat
+[Mon Feb 27 18:27:50 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/accounts.php' not found or unable to stat
+[Mon Feb 27 18:27:50 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/wp-login.php' not found or unable to stat
+[Mon Feb 27 18:27:50 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/bb-admin
+[Mon Feb 27 18:27:53 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/bb-admin
+[Mon Feb 27 18:27:53 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/administrator
+[Mon Feb 27 18:27:54 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/check.php' not found or unable to stat
+[Mon Feb 27 18:27:54 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/relogin.php' not found or unable to stat
+[Mon Feb 27 18:27:54 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/blog
+[Mon Feb 27 18:27:54 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/user
+[Mon Feb 27 18:27:55 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/users
+[Mon Feb 27 18:27:55 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/processlogin.php' not found or unable to stat
+[Mon Feb 27 18:27:55 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/checklogin.php' not found or unable to stat
+[Mon Feb 27 18:27:55 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/checkuser.php' not found or unable to stat
+[Mon Feb 27 18:27:56 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/checkadmin.php' not found or unable to stat
+[Mon Feb 27 18:27:56 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/isadmin.php' not found or unable to stat
+[Mon Feb 27 18:27:56 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/authenticate.php' not found or unable to stat
+[Mon Feb 27 18:27:56 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/authentication.php' not found or unable to stat
+[Mon Feb 27 18:27:57 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/auth.php' not found or unable to stat
+[Mon Feb 27 18:27:57 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/authuser.php' not found or unable to stat
+[Mon Feb 27 18:27:57 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/authadmin.php' not found or unable to stat
+[Mon Feb 27 18:27:57 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/cp.php' not found or unable to stat
+[Mon Feb 27 18:27:58 2012] [error] [client 127.0.0.1] File does not exist: /home/viktor/Dropbox/work/df/modelsearch
+[Mon Feb 27 18:27:58 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/moderator.php' not found or unable to stat
+[Mon Feb 27 18:27:58 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/controlpanel.php' not found or unable to stat
+[Mon Feb 27 18:27:58 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admincontrol.php' not found or unable to stat
+[Mon Feb 27 18:27:59 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/adminpanel.php' not found or unable to stat
+[Mon Feb 27 18:27:59 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/fileadmin.php' not found or unable to stat
+[Mon Feb 27 18:27:59 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/sysadmin.php' not found or unable to stat
+[Mon Feb 27 18:28:00 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admin1.php' not found or unable to stat
+[Mon Feb 27 18:28:00 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admin2.php' not found or unable to stat
+[Mon Feb 27 18:28:00 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/yonetim.php' not found or unable to stat
+[Mon Feb 27 18:28:01 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/yonetici.php' not found or unable to stat
+[Mon Feb 27 18:28:01 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/ur-admin.php' not found or unable to stat
+[Mon Feb 27 18:28:02 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/Server.php' not found or unable to stat
+[Mon Feb 27 18:28:02 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/administr8.php' not found or unable to stat
+[Mon Feb 27 18:28:03 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/webadmin.php' not found or unable to stat
+[Mon Feb 27 18:28:04 2012] [error] [client 127.0.0.1] script '/home/viktor/Dropbox/work/df/admins.php' not found or unable to stat

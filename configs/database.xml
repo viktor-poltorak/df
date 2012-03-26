@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<configuration>
+    <database>
+        <adapter>Pdo_Mysql</adapter>
+		<params>
+			<host>localhost</host>
+			<username>root</username>
+			<password>pass</password>
+			<dbname>df</dbname>
+		</params>
+		<!--<params>
+			<host>localhost</host>
+			<username>dfarbby</username>
+			<password>o4S5ttMSvdbK</password>
+			<dbname>dfarbby</dbname>
+		</params>-->
+    </database>
+</configuration>

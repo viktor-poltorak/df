@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<configuration>
+    <messages>
+        <changes_applied>Изменения приняты.</changes_applied>
+		<friends>
+			<friend_request_sent>Ваш запрос оправлен.</friend_request_sent>
+		</friends>
+    </messages>
+	<settings>
+		<email_request_applied>Email будет сменен после того, как вы подвердите запрос, перейдя по ссылке, высланной вам на почту.</email_request_applied>
+	</settings>
+</configuration>

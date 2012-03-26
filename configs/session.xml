@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configuration>
+    <session>
+        <save_path>tmp/session</save_path>
+        <remember_me_seconds>864000</remember_me_seconds>
+    </session>
+</configuration>

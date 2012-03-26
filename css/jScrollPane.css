@@ -1,0 +1,126 @@
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #EFEFEF;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #666;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+}
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+.jScrollPaneContainer{
+	/*width:780px!important;*/
+}
+#pane2{
+}
+.scroll-pane {
+	overflow: auto;
+	height:100px;
+}
+.df{
+	width:100%;
+}
+.df .jScrollPaneTrack {
+	background: url(../images/scrollpane-bg.png) repeat-y;
+}
+.df .jScrollPaneDrag {
+	background: url(../images/scroll-drag-bg.png) repeat-y;
+}
+.df .jScrollPaneDragTop {
+	background: url(../images/scroll-drag-top.png) no-repeat;
+	height: 21px;
+}
+.df .jScrollPaneDragBottom {
+	background: url(../images/scroll-drag-bottom.png) no-repeat;
+	padding-bottom: 8px;
+	height: 1px;
+}
+.df a.jScrollArrowUp {
+	height: 25px;
+	background: url(../images/scroll-up.png) no-repeat 0 0;
+}
+.df a.jScrollArrowUp:hover {
+	background-position: 0 0;
+}
+.df a.jScrollArrowDown {
+	height: 25px;
+	background: url(../images/scroll-down.png) no-repeat 0 0;
+}
+.df a.jScrollArrowDown:hover {
+	background-position: 0 0;
+}
+
+.left .jScrollPaneTrack {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowUp {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowDown {
+	left: 0;
+	right: auto;
+}
+
+
+/* IE SPECIFIC HACKED STYLES */
+* html .df .jScrollPaneDragBottom {
+	bottom: -1px;
+}
+/* /IE SPECIFIC HACKED STYLES */

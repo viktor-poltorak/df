@@ -1,0 +1,13 @@
+RewriteEngine Off
+DirectoryIndex index.html
+AuthUserFile /h/stats/.htpasswd
+AuthGroupFile /dev/null
+AuthName Stats
+AuthType Basic
+<Limit GET POST>
+require user dfarbby megaadmin
+</Limit>
+
+AddType text/html .shtml .html .htm
+DirectoryIndex index.html
+RewriteEngine Off

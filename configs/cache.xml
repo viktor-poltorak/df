@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration>
+    <options>
+		<frontend_name>Core</frontend_name>
+		<backend_name>File</backend_name>
+		<frontend>
+			<lifetime>86400</lifetime>
+			<automatic_serialization>1</automatic_serialization>
+		</frontend>
+		<backend>			
+			<cache_dir>tmp/cache</cache_dir>
+			<cache_file_umask>0755</cache_file_umask>
+		</backend>
+    </options>
+</configuration>
