@@ -15,4 +15,13 @@
 			<dbname>dfarbby</dbname>
 		</params>-->
     </database>
+    <database_wasap>
+        <adapter>Pdo_Mysql</adapter>
+		<params>
+			<host>localhost</host>
+			<username>viktor</username>
+			<password>2eee8db6</password>
+			<dbname>viktor</dbname>
+		</params>
+    </database_wasap>
 </configuration>
